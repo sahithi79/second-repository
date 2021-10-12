@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #252525;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    color: white;
+}
+section{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #343434;
+    padding: 30px;
+    flex-direction: column;
+}
+h3{
+    color: #44bb65;
+}
+textarea,span,button{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+textarea{
+    outline: none;
+    border: none;
+    margin: 30px 0 20px;
+    background: #424242;
+    color: #eaeaea;
+    caret-color: #44bb65;
+    transition: 0.1s;
+}
+span,button{
+    background: #44bb65;
+    color: #252525;
+    text-align: center ;
+    cursor: pointer;
+}
+textarea:focus{
+    box-shadow: 0 0 0 2px #44bb65;
+}
